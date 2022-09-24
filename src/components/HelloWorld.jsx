@@ -1,8 +1,8 @@
 
-const HelloWorld = () => {
+const HelloWorld = (props) => {
     return (
         <div>
-            <h1>Hello World</h1>
+            <h1 props>Hello World {props.saludar}</h1>
         </div>
     );
 };
